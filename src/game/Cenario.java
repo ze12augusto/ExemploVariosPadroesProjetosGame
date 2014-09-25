@@ -13,11 +13,8 @@ public class Cenario {
     private List<Observer> observers = new ArrayList<>();
 
     public void setTipoTerreno(String tipoTerreno) {
-        String terrenoAntigo = this.tipoTerreno;
         this.tipoTerreno = tipoTerreno;
-
         notificaMudancaCenario(tipoTerreno);
-
     }
 
     public void addObserver(Observer observer) {

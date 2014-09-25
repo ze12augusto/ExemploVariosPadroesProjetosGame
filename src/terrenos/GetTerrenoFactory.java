@@ -1,9 +1,5 @@
 package terrenos;
 
-import terrenos.TerrenoAgua;
-import terrenos.Terreno;
-import terrenos.TerrenoTerra;
-
 /**
  *
  * @author a12027227
@@ -17,7 +13,6 @@ public class GetTerrenoFactory {
         if( instance == null ){
             instance = new GetTerrenoFactory();
         }
-        
         return instance;
     }
     private GetTerrenoFactory() {}
